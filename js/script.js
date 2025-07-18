@@ -599,7 +599,24 @@ whyusRevealImg();
 
 
 
+// toTopBtn
+function toTopBtn() {
 
+    document.addEventListener("DOMContentLoaded", () => {
+        const topBtn = document.querySelector(".top-btn a");
+
+        topBtn.addEventListener("click", (e) => {
+            e.preventDefault(); // Prevent default anchor behavior
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Smooth scroll
+            });
+        });
+    });
+
+}
+toTopBtn()
 
 
 
