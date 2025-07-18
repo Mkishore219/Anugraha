@@ -739,13 +739,13 @@ footer nav {
 
 footer nav ul li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 footer nav ul li a {
     color: white;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -762,7 +762,7 @@ footer .copyrights-body {
 footer .copyrights-body .copy-rights p {
     color: white;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -770,7 +770,7 @@ footer .copyrights-body a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 
