@@ -171,7 +171,7 @@ function aboutSectionTextAmination() {
 
         // Then use SplitText
         const amination1 = new SplitText("#about h3", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -196,7 +196,7 @@ function aboutSectionTextAmination() {
         // p
         // Then use SplitText
         const amination2 = new SplitText("#about p", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -272,7 +272,7 @@ function servicesSectionTextAmination() {
 
         // Then use SplitText
         const amination1 = new SplitText("#services h3", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -297,7 +297,7 @@ function servicesSectionTextAmination() {
         // p
         // Then use SplitText
         const amination2 = new SplitText("#services p", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -380,7 +380,7 @@ function projectsSectionTextAmination() {
 
         // Then use SplitText
         const amination1 = new SplitText("#projects h3", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -448,7 +448,7 @@ function ShowcaseSectionTextAmination() {
 
         // Then use SplitText
         const amination1 = new SplitText("#Showcase h6", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -473,7 +473,7 @@ function ShowcaseSectionTextAmination() {
         // p
         // Then use SplitText
         const amination2 = new SplitText("#Showcase p", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -521,7 +521,7 @@ function whyusSectionTextAmination() {
 
         // Then use SplitText
         const amination1 = new SplitText("#why-us h3", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",
@@ -546,7 +546,7 @@ function whyusSectionTextAmination() {
         // p
         // Then use SplitText
         const amination2 = new SplitText("#why-us p", {
-            type: "chars,words,lines",
+            type: "lines",
             wordsClass: "word++", /* turn this on to get classes for each words */
             autoSplit: true,
             mask: "lines",

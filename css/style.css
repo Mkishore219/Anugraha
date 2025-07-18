@@ -84,7 +84,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+    background-color: rgba(0, 0, 0, 0.445);
 }
 
 
@@ -367,11 +367,13 @@ header #hamburger {
 
 #about img {
     clip-path: inset(0 0 100% 0);
+    will-change: clip-path;
+    width: 100%;
 }
 
 #about .about-content p {
-    font-size: 25px;
-    color: #555;
+    /* font-size: 25px; */
+    color: rgba(0, 0, 0, 0.445);
     margin-top: 50px;
     text-align: center;
 }
@@ -396,8 +398,8 @@ header #hamburger {
 }
 
 #about .about-count p {
-    color: #555;
-    font-size: 20px;
+    color: rgba(0, 0, 0, 0.445);
+    /* font-size: 20px; */
     text-transform: capitalize;
 }
 
@@ -425,11 +427,13 @@ header #hamburger {
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 50px;
+    will-change: transform, opacity;
 }
 
 #services .services-title p {
     width: 40%;
     color: rgba(0, 0, 0, 0.445);
+    will-change: transform, opacity;
 }
 
 
@@ -517,11 +521,13 @@ header #hamburger {
     color: white;
     font-size: 50px;
     margin-bottom: 20px;
+    will-change: transform, opacity;
 }
 
 #Showcase p {
-    color: white;
+    color: rgb(255 255 255 / 70%);
     width: 30%;
+    will-change: transform, opacity;
 }
 
 
@@ -554,6 +560,7 @@ header #hamburger {
     margin-bottom: 50px;
     /* padding-left: 20px; */
     text-align: center;
+    will-change: transform, opacity;
 }
 
 #projects .container-fluid {
@@ -572,6 +579,7 @@ header #hamburger {
 #projects img {
     width: 100%;
     clip-path: inset(0 0 100% 0);
+    will-change: clip-path;
 }
 
 #projects .projuct-count,
@@ -608,10 +616,13 @@ header #hamburger {
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 50px;
+    will-change: transform, opacity;
 }
 
 #why-us img {
     clip-path: inset(0 0 100% 0);
+    will-change: clip-path;
+    width: 100%;
 }
 
 
@@ -626,6 +637,7 @@ header #hamburger {
     padding-bottom: 50px;
     width: 80%;
     /* min-height: 123px; */
+    will-change: transform, opacity;
 }
 
 #why-us .choose-us-reasons h3 i {
@@ -635,7 +647,8 @@ header #hamburger {
 
 #why-us .choose-us-reasons p {
     width: 90%;
-    color: #555;
+    color: rgba(0, 0, 0, 0.445);
+    will-change: transform, opacity;
 }
 
 
@@ -904,7 +917,11 @@ footer .copyrights-body a {
 
 
 
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+    #why-us .col-md-4 {
+        padding-top: 80px;
+    }
+}
 
 @media screen and (max-width: 900px) {
     #banner .banner-txt h2 {
@@ -1078,7 +1095,11 @@ footer .copyrights-body a {
         width: 70%;
     }
 
-        footer .contact-details ul li {
+    footer .footer-title p {
+        width: 100%;
+    }
+
+    footer .contact-details ul li {
         font-size: 13px;
     }
 
