@@ -1,5 +1,6 @@
 :root {
     --global-logo-color: #403f91;
+    --p--light--grey--color: rgba(0, 0, 0, 0.445);
 }
 
 * {
@@ -373,7 +374,7 @@ header #hamburger {
 
 #about .about-content p {
     /* font-size: 25px; */
-    color: rgba(0, 0, 0, 0.445);
+    color: var(--p--light--grey--color);
     margin-top: 50px;
     text-align: center;
 }
@@ -398,7 +399,7 @@ header #hamburger {
 }
 
 #about .about-count p {
-    color: rgba(0, 0, 0, 0.445);
+    color: var(--p--light--grey--color);
     /* font-size: 20px; */
     text-transform: capitalize;
 }
@@ -432,7 +433,7 @@ header #hamburger {
 
 #services .services-title p {
     width: 40%;
-    color: rgba(0, 0, 0, 0.445);
+    color: var(--p--light--grey--color);
     will-change: transform, opacity;
 }
 
@@ -647,7 +648,7 @@ header #hamburger {
 
 #why-us .choose-us-reasons p {
     width: 90%;
-    color: rgba(0, 0, 0, 0.445);
+    color: var(--p--light--grey--color);
     will-change: transform, opacity;
 }
 
